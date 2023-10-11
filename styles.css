@@ -1,0 +1,98 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: url(images/bg-stars.svg), linear-gradient(#1D1E28, #2f2439);
+    position: relative;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 7.5px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.content {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.upper {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+    background: radial-gradient(circle at top left, transparent 0px, #2c2e44 0) top left,
+        radial-gradient(circle at top right, transparent 0px, #2c2e44 0) top right,
+        radial-gradient(circle at bottom right, #191a23 10px, #2c2e44 0) bottom right,
+        radial-gradient(circle at bottom left, #191a23 10px, #2c2e44 0) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.lower {
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 10px 10px;
+    background: radial-gradient(circle at top left, #191a23 10px, #343650 0) top left,
+        radial-gradient(circle at top right, #191a23 10px, #343650 0) top right,
+        radial-gradient(circle at bottom right, transparent 0px, #343650 0) bottom right,
+        radial-gradient(circle at bottom left, transparent 0px, #343650 0) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.numbers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fb5e84;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #8385A9;
+    margin-top: 10px;
+}
+
+.icons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+}
+
+.icons img:hover {
+    cursor: pointer;
+    /* fill: #fb5e84; */
+}
