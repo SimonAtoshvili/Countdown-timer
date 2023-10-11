@@ -1,13 +1,12 @@
 .container {
-    max-width: 1440px;
     width: 100%;
     height: 100vh;
-    margin: 0 auto;
     background: url(images/bg-stars.svg), linear-gradient(#1D1E28, #2f2439);
     position: relative;
 }
 
 .footer {
+    width: 100%;
     position: absolute;
     bottom: 0;
 }
@@ -70,6 +69,7 @@ h1 {
     color: #fb5e84;
     font-size: 80px;
     font-weight: 700;
+    z-index: 1;
 }
 
 .label {
@@ -92,7 +92,7 @@ h1 {
     transform: translateX(-50%);
 }
 
-.icons img:hover {
+svg:hover path {
     cursor: pointer;
-    /* fill: #fb5e84; */
+    fill: #fb5e84;
 }
